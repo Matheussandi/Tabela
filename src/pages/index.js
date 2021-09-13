@@ -119,7 +119,7 @@ function Home() {
       </form>
       <table>
         <thead>
-          <tr>
+          <tr class="one>
             <th>Período</th>
             <th>Disciplina</th>
             <th>Professor(a)</th>
