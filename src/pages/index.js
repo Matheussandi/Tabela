@@ -25,8 +25,6 @@ function Home() {
     setProfessor('')
     setCargaHoraria('')
 
-    //AQUI AVISA MAS NÃO CANCELA
-
     if (periodo === '') {
       alert ("Período inválido");
       return;
