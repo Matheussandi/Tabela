@@ -76,14 +76,14 @@ function Home() {
           onChange={ (e) => setPeriodo(e.target.value) }
         >
           <option selected disabled value="">Período</option>
-          <option value="Primeiro">1º</option>
-          <option value="Segundo">2º</option>
-          <option value="Terceiro">3º</option>
-          <option value="Quarto">4º</option>
-          <option value="Quinto">5º</option>
-          <option value="Sexto">6º</option>
-          <option value="Setimo">7º</option>
-          <option value="Oitavo">8º</option>
+          <option value="1º">1º</option>
+          <option value="2º">2º</option>
+          <option value="3º">3º</option>
+          <option value="4º">4º</option>
+          <option value="5º">5º</option>
+          <option value="6º">6º</option>
+          <option value="7º">7º</option>
+          <option value="8º">8º</option>
         </select>
 
         <input
