@@ -100,11 +100,11 @@ function Home() {
           onChange={ (e) => setProfessor(e.target.value) }
         >
             <option selected disabled value="">Professor(a)</option>
-            <option value="Cadu">Cadu</option>
-            <option value="Debora">Débora</option>
-            <option value="Luis">Luís Cláudio</option>
-            <option value="Osni">Osni</option>
-            <option value="Salete">Salete</option>
+            <option>Professor(a) 1</option>
+            <option>Professor(a) 2</option>
+            <option>Professor(a) 3</option>
+            <option>Professor(a) 4</option>
+            <option>Professor(a) 5</option>
         </select>
 
         <input
