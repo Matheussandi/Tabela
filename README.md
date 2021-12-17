@@ -2,7 +2,7 @@
 
 # Tabela
 
-Tabela para cadastrar os professores, dizendo qual período ele leciona, de qual disciplina é, o seu nome e a carga horária.
+Tabela para cadastrar os professores, dizendo qual período ele(a) leciona, de qual disciplina é, o seu nome e a carga horária.
 Também existe a opção de excluir o professor da tabela, não existe vailidação somente um alerta caso o usuário tente passar algo em branco.
  
 # 👨‍💻 Tecnologias
