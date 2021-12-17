@@ -10,39 +10,23 @@ function Home() {
   const [profs, setProfs] = useState([])
 
   function handleAddProf(e) {
-    e.preventDefault();
+    if (periodo === '' || disciplina === '' || professor === '' || cargaHoraria === '') {
+      alert("Favor preencher o campo que está vazio");
+      e.preventDefault();
+    } else {
     const data = {
       id: new Date().getTime(),
       periodo,
       disciplina,
       professor,
       cargaHoraria
-    }
-  
-    setProfs([...profs, data])
-    setPeriodo('')
-    setDisciplina('')
-    setProfessor('')
-    setCargaHoraria('')
+      }
 
-    if (periodo === '') {
-      alert ("Período inválido");
-      return;
-    }
-
-    if (disciplina === '') {
-      alert ("Disciplina em branco");
-      return;
-    }
-
-    if (professor === '') {
-      alert ("Professor inválido");
-      return;
-    }
-
-    if (cargaHoraria === '') {
-      alert ("Carga Horária em branco");
-      return;
+      setProfs([...profs, data])
+      setPeriodo('')
+      setDisciplina('')
+      setProfessor('')
+      setCargaHoraria('')
     }
   }
 
